@@ -51,5 +51,39 @@ ageMark = ageMark * 2;
 console.log(ageMark);
 console.log(ageJohn);
 
+////////////////////////////////
+//Lecture: if/else statements
+
+var name = 'John';
+var age = 26;
+var isMarried = 'yes';
+
+if (isMarried === 'yes'){
+    //if(false)
+    console.log(name + ' is married!');
+} else{
+    console.log(name + 'will hopefully marry soon :)');
+}
+
+isMarried = false;
+
+if(isMarried){
+    console.log('YES!');
+} else {
+    console.log('NO!');
+}
+
+if(23 == 23){
+    console.log('Something to print...')
+}
+
+
+
+/////////////////////////////
+////////Lecture: boolean logic and switch
+
+var age = 25;
+
+if (age z)
 
 
