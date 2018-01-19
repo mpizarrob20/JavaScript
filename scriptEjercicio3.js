@@ -1,4 +1,8 @@
-//global scope - accessible from everywhere from all functions
+//El hoisting hace que las declaraciones se eleven al inicio de cada scope
+//Ejemplo: var x = 0;
+//Java script lo lee de estas forma:
+// var x;
+// x = 0;
 ///////////////////////////////////////
 // Lecture: Hoisting
 
@@ -83,3 +87,32 @@ var john = {
 }
 
 john.calculateAge();
+
+var mike = {
+    name: 'Mike',
+    yearOfBirth: 1984
+};
+
+mike.calculateAge = john.calculateAge;
+mike.calculateAge();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
